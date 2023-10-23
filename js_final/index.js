@@ -32,7 +32,7 @@ signupBtn.addEventListener('click', (e) => {
     let userInfo = { email: suEmailVal, pw: suPwVal };
     window.localStorage.setItem('userInfo', JSON.stringify(userInfo));
 
-    console.log("회원가입에 성공했습니다.")
+    alert("회원가입에 성공했습니다.")
 })
 
 const signinBtn = document.querySelector('.signin_btn');
